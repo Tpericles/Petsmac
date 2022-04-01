@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <title>Clínica Veterinária</title>
+        <meta charset="utf-8"/>
+        <style>
+ 
+            html {
+                height: 100%;
+                
+            }
+ 
+            /** COMENTÁRIO **/ 
+            #cabecalho {
+                width: 100%;
+                height: 12.7%;
+                background-color: rgba(245, 238, 220, 1);
+            }
+ 
+            #conteudo_principal {
+                background: rgb(255, 255, 255);
+                width: 100%;
+                height: 100%;
+                
+            }
+            #textinho {
+                float: right;
+                background-color: rgb(255, 255, 255);
+                margin-right: 15%;
+                margin-top: 10px;
+            }
+            #formulario {
+                background-color: rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
+                float: left;
+                height: 770px;
+                width: 500px;
+                margin-left: 25%;
+            }
+            #corpo{
+                background-color: rgba(179, 84, 30, 1);
+            }
+            #rodape{
+                text-align: center;
+            }
+            .imagem{
+                padding-left: 15%;
+                padding-top: 10px;
+            } 
+            .texto{
+                text-align: left;
+                font-size: x-large;
+            }  
+            .input{
+                padding-left: 10px;
+                width: 500px;
+                height: 40px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                color: burlywood;
+            }
+            input::placeholder {
+            color: burlywood;
+            }
+            .botao{
+                border-radius: 5px;
+                background-color: rgba(179, 84, 30, 1);
+                height: 40px;
+                width: 500px;
+                font-size: x-large;
+                color: cornsilk;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .texto3{
+                text-align: center;
+            }
+            .imgTextinho{
+                margin-top: 20px;
+                margin-left: 250px;
+                width: 300px;
+                height: 200px;
+        
+            }
+        </style>
+    </head>
+<body id="corpo">
+    <!-- CABEÇALHO -->
+    <div id="cabecalho">
+        <a href="home.html">
+            <img src="img/logo.png" class="imagem" width="100" height="100" >
+        </a>
+    </div>
+
+   
+    <!-- CONTEUDO -->
+    <div id="conteudo_principal">            
+        
+        <div id="formulario">
+            <h3 class="texto">Crie sua conta</h3>
+            <form action="">
+                <label ><b>Nome e sobrenome</b></label>
+                <br/> 
+                <input class="input" type="text" 
+                name="nome" placeholder="Digite seu nome e sobrenome"> 
+                <br/>
+
+                <label ><b>Email</b></label>
+                <br/> 
+                <input class="input" type="email" 
+                name="email" placeholder="Digite seu e-mail"> 
+                <br/>
+
+                <label ><b>Celular</b></label>
+                <br/> 
+                <input class="input" type="tel" 
+                name="Celular" placeholder="DDD  Celular"> 
+                <br/>
+
+                <label ><b>Telefone</b>(opcional)</label>
+                <br/> 
+                <input class="input" type="tel" 
+                name="Telefone" placeholder="DDD - Telefone"> 
+                <br/>
+
+                <label ><b>Sexo</b>(opcional)</label>
+                <br/> 
+                <select class="input" name="Genero">
+                    <option value="">Escolha o sexo</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select>
+                <br/> 
+
+                <label ><b>Data de nascimento</b>(opcional)</label>
+                <br/> 
+                <input class="input" type="date"  
+                name="Data" > 
+                <br/>
+
+                <label ><b>CPF</b></label>
+                <br/>
+                <input class="input" type="text" 
+                name="CPF" placeholder="000.000.000-00">                
+                <br/>
+
+                <label ><b>Senha</b></label>
+                <br/>
+                <input class="input" type="password" 
+                name="Senha" placeholder="Digite sua senha">
+                <br/>
+
+                <label ><b>Confirmar a senha</b></label>
+                <br/>
+                <input class="input" type="password" 
+                name="Senha" placeholder="Confirmar a senha">
+                <br/>
+
+                <input type="checkbox" 
+                name="aceitaCondicoes" value="ok" id="condicoes">
+                <label for='condicoes'>
+                    Concordo com os
+                    <a href=''>termos e condições</a>
+                </label>
+                <br/>
+
+                <input type="submit" class="botao" value="Cadastrar"/>
+                <br/>
+                <p class="texto3">
+                <b>Já possui conta?</b>
+                <a href="login.html">Clique aqui</a>
+                </p>
+                <br/>
+            </form>
+        </div>
+        <img src="img/baixados.png" class="imgTextinho" width="100" height="100">
+        <div id="textinho">
+            <h3>Criar uma conta é rápido, fácil e gratuito</h3>
+            <p>Com a sua conta da Petsmac você tem acesso a ofertas<br/>
+                exclusivas, descontos, vai gerenciar a sua assinatura Petsmac<br/>
+                pode acompanhar os seus pedidos e muito mais!</p>
+            </div>
+        </div>
+<footer id="rodape"> Copyright &copy; 2022 Petsmac  <strike>viva o bolsonaro!</strike>
+     </br> Todos direitos reservados 
+</footer>
+</body>
+
+</html>

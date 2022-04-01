@@ -1,2 +1,0 @@
-# SitePet
- Template De PetShop

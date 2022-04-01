@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>Clínica Veterinária</title>
+        <meta charset="utf-8"/>
+        <style>
+ 
+            html {
+                height: 100%;
+                
+            }
+ 
+            /** COMENTÁRIO **/ 
+            #cabecalho {
+                width: 100%;
+                height: 12.7%;
+                background-color: rgba(245, 238, 220, 1);
+            }
+ 
+            #conteudo_principal {
+                background: rgb(255, 255, 255);
+                width: 100%;
+                height: 100%;
+                
+            }
+            #textinho {
+                float: right;
+                background-color: rgb(255, 255, 255);
+                margin-right: 15%;
+                margin-top: 10px;
+            }
+            #formulario {
+                color: rgb(0, 0, 0);
+                float: left;
+                height: 770px;
+                width: 500px;
+                margin-left: 25%;
+            }
+            #titulo{
+                color: darkblue;
+                font-size: xx-large;
+                text-align: left;
+                width: 500px;
+                margin-left: 25%;
+                padding-top: 10px;
+                
+            }
+            #corpo{
+                background-color: rgb(179, 84, 30, 1);
+            }
+            #rodape{
+                text-align: center;
+            }
+            .imagem{
+                padding-left: 15%;
+                padding-top: 10px;
+            } 
+            .texto{
+                text-align: left;
+                font-size: x-large;
+            }  
+            .input{
+                padding-left: 10px;
+                width: 500px;
+                height: 40px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                color: burlywood;
+            }
+            input::placeholder {
+            color: burlywood;
+            }
+            .botao{
+                border-radius: 5px;
+                background-color: rgb(179, 84, 30, 1);
+                height: 60px;
+                width: 500px;
+                font-size: x-large;
+                color: cornsilk;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .botao1{
+                border-radius: 5px;
+                border-color: rgb(179, 84, 30, 1);
+                height: 40px;
+                width: 500px;
+                font-size: x-large;
+                color: rgb(179, 84, 30, 1);
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .texto3{
+                text-align: right;
+            }
+           
+        </style>
+    </head>
+<body id="corpo">
+    <!-- CABEÇALHO -->
+    <div id="cabecalho">
+        <a href="home.html">
+            <img src="img/logo.png" class="imagem" width="100" height="100" >
+        </a>
+    </div>
+
+   
+    <!-- CONTEUDO -->
+    <div id="conteudo_principal">
+        <div id="titulo">Acessar ou criar conta</div>        
+        
+        <div id="formulario">
+            <form action="">
+                <h3 class="texto">Acesse sua conta</h3>
+                <label ><b>E-mail ou CPF</b></label>
+                <br/> 
+                <input class="input" type="text" 
+                name="nome" placeholder="Digite seu e-mail ou CPF"> 
+                <br/>
+
+                <label ><b>Senha</b></label>
+                <br/>
+                <input class="input" type="password" 
+                name="Senha" placeholder="Digite sua senha">
+                <br/>
+                <p class="texto3">
+                    <a href=''>Esqueci a senha</a>
+                </p>
+
+                <input type="submit" class="botao" value="Entrar"/>
+                <br/>
+            </form>
+        </div>
+        <div id="textinho">
+            <h3>Criar uma conta é rápido, fácil e gratuito</h3>
+            <p>Com a sua conta da Petsmac você tem acesso a ofertas<br/>
+                exclusivas, descontos, vai gerenciar a sua assinatura Petsmac<br/>
+                pode acompanhar os seus pedidos e muito mais!</p>
+                <a href="cadastro.html">
+                    <input class="botao1" type="button" value="Criar minha conta">
+                </a>
+            </div>
+        </div>
+<footer id="rodape"> Copyright &copy; 2022 Petsmac  <strike>fora bolsonaro!</strike>
+     </br> Todos direitos reservados 
+</footer>
+</body>
+
+</html>
